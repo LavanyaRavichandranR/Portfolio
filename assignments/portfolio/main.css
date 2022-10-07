@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+}
+
+h1{ 
+    text-shadow: -5px 5px 5px black;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 3em;
+    
+}
+h3{
+    text-align: center;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-family: 'Poppins', sans-serif;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f77aec;
+    border:2px solid black;
+}
+
+li {
+    float: left;
+    }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: -5px 5px 5px black,-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+    }
+    li 
+    {
+    border-right: 2px solid black;
+    box-shadow: 0 0 2px;
+    }
+
+   
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #660066;
+}
